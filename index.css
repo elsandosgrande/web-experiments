@@ -1,8 +1,0 @@
-@font-face{
-    font-family: Prociono;
-    src: url(Prociono.otf);
-}
-*{
-    box-sizing: border-box;
-    font-family: Prociono;
-}

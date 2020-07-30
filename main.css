@@ -1,0 +1,27 @@
+/*
+SPDX-license_Identifier: GPL-3.0-or-later
+Copyright © 2019-2020 Sandy Vujaković
+*/
+
+@font-face{
+    font-family: Fanwood;
+    src: url(./fonts/Fanwood/Fanwood.woff2) format("woff2"), url(./fonts/Fanwood/Fanwood.woff) format("woff"), url(./fonts/Fanwood/Fanwood.otf) format("opentype");
+}
+@font-face{
+    font-family: Prociono;
+    src: url(./fonts/Prociono/Prociono.woff2) format("woff2"), url(./fonts/Prociono/Prociono.woff) format("woff"), url(./fonts/Prociono/Prociono.otf) format("opentype");
+}
+@font-face{
+    font-family: "Noto Serif CJK JP";
+    src: url(./fonts/Noto\ Serif\ CJK\ JP/NotoSerifCJKjp-Regular.woff2) format("woff2"), url(./fonts/Noto\ Serif\ CJK\ JP/NotoSerifCJKjp-Regular.woff) format("woff"),url(./fonts/Noto\ Serif\ CJK\ JP/NotoSerifCJKjp-Regular.otf) format("opentype");
+}
+/* TODO — Get a Cyrillic font that is similar to either Fanwood or Prociono */
+#logo{
+    width: 20vw; /* TODO — Experiment with logo sizes to find a more appropriate size across devices */
+}
+.Latin{
+    font-family: Fanwood, Prociono;
+}
+.Japanese{
+    font-family: "Noto Serif CJK JP";
+}
